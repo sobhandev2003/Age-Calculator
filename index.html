@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+  <title>Age calculator app</title>
+
+
+</head>
+<body>
+<div class="box centered">
+<div class="birth-div" id="birtday_input_div">
+  <div class="birth"  id="bir_day">
+  <span class="unit">D A Y</span>
+  <input type="text" id="input_day" class="input" placeholder="DD">
+  <span class="err"></span>
+</div>
+<div class="birth" id="bir_month">
+  <span class="unit">M O N T H</span>
+<input type="text" id="input_month" class="input" placeholder="MM">
+<span class="err"></span>
+</div>
+<div class="birth" id="bir_year">
+  <span class="unit">Y E A R</span>
+  <input type="text" id="input_year" class="input" placeholder="YYYY">
+  <span class="err"></span>
+</div>
+
+</div>
+  
+<div class="submit">
+
+
+<div class="submit_div">
+  <button class="btn" id="submit_btn" onclick="submit()">
+    <img src="/assets/images/icon-arrow.svg" alt="Submit">
+  </button>
+</div>
+</div>
+  <div class="age">
+  <div class="unit_age "><span class="age_value" id="age_year">--</span>years</div>
+    <div class="unit_age"><span class="age_value" id="age_month">--</span>months</div>
+    <div class="unit_age" ><span class="age_value" id="age_day">--</span>days</div>
+  </div>
+
+</div>
+  
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>

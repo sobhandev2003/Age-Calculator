@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,800&family=Roboto:wght@300&display=swap');
+
+@media (max-width: 765px) {
+
+  .box {
+    margin: auto;
+    width: 280px;
+    height: 510px;
+    border-bottom-right-radius: 120px;
+
+  }
+
+  .birth-div {
+    width: 270px;
+  }
+
+  .unit {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .input {
+    width: 70px;
+    font-size: 20px;
+  }
+
+  .btn {
+    float: none;
+    margin: auto;
+  }
+
+  .submit {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .submit_div::before {
+    background-color: hsl(0, 0%, 86%);
+    width: 105px;
+  }
+
+  .submit_div::after {
+    content: "";
+    width: 105px;
+    height: 1px;
+    display: block;
+    background-color: hsl(0, 0%, 86%);
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+  .unit_age {
+    font-size: 50px;
+    width: 280px;
+    height: 75px;
+    padding: 0px;
+  }
+
+  .age_value {
+    margin: 0px;
+  }
+
+  .age {
+    width: 280px;
+    height: 235px;
+  }
+
+  .err {
+    font-size: 10px;
+  }
+
+
+}
